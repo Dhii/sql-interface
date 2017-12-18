@@ -29,8 +29,8 @@ class EntityFieldInterfaceTest extends TestCase
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
-                     ->getEntity()
-                     ->getField();
+                     ->getEntityName()
+                     ->getFieldName();
 
         return $mock->new();
     }
@@ -48,6 +48,18 @@ class EntityFieldInterfaceTest extends TestCase
             static::TEST_SUBJECT_CLASSNAME,
             $subject,
             'A valid instance of the test subject could not be created.'
+        );
+
+        $this->assertInstanceOf(
+            'Dhii\Storage\Resource\Sql\EntityNameAwareInterface',
+            $subject,
+            'Test subject does not implement expected parent interface.'
+        );
+
+        $this->assertInstanceOf(
+            'Dhii\Storage\Resource\Sql\FieldNameAwareInterface',
+            $subject,
+            'Test subject does not implement expected parent interface.'
         );
     }
 }

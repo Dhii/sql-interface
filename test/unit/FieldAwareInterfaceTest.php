@@ -3,21 +3,21 @@
 namespace Dhii\Storage\Resource\Sql\UnitTest;
 
 use Xpmock\TestCase;
-use Dhii\Storage\Resource\Sql\FieldNameAwareInterface as TestSubject;
+use Dhii\Storage\Resource\Sql\FieldAwareInterface as TestSubject;
 
 /**
  * Tests {@see TestSubject}.
  *
  * @since [*next-version*]
  */
-class FieldNameAwareInterfaceTest extends TestCase
+class FieldAwareInterfaceTest extends TestCase
 {
     /**
      * The class name of the test subject.
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\Storage\Resource\Sql\FieldNameAwareInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Storage\Resource\Sql\FieldAwareInterface';
 
     /**
      * Creates a new instance of the test subject.
@@ -29,7 +29,7 @@ class FieldNameAwareInterfaceTest extends TestCase
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
-                     ->getFieldName();
+                     ->getField();
 
         return $mock->new();
     }

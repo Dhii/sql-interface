@@ -3,21 +3,21 @@
 namespace Dhii\Storage\Resource\Sql\UnitTest;
 
 use Xpmock\TestCase;
-use Dhii\Storage\Resource\Sql\EntityNameAwareInterface as TestSubject;
+use Dhii\Storage\Resource\Sql\EntityAwareInterface as TestSubject;
 
 /**
  * Tests {@see TestSubject}.
  *
  * @since [*next-version*]
  */
-class EntityNameAwareInterfaceTest extends TestCase
+class EntityAwareInterfaceTest extends TestCase
 {
     /**
      * The class name of the test subject.
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\Storage\Resource\Sql\EntityNameAwareInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Storage\Resource\Sql\EntityAwareInterface';
 
     /**
      * Creates a new instance of the test subject.
@@ -29,7 +29,7 @@ class EntityNameAwareInterfaceTest extends TestCase
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
-                     ->getEntityName();
+                     ->getEntity();
 
         return $mock->new();
     }

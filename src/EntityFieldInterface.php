@@ -8,7 +8,7 @@ namespace Dhii\Storage\Resource\Sql;
  * @since [*next-version*]
  */
 interface EntityFieldInterface extends
-    EntityNameAwareInterface,
-    FieldNameAwareInterface
+    EntityAwareInterface,
+    FieldAwareInterface
 {
 }

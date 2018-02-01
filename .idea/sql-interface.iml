@@ -18,6 +18,7 @@
           <root url="file://$MODULE_DIR$/vendor/dhii/data-key-value-aware-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/evaluable-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/expression-interface" />
+          <root url="file://$MODULE_DIR$/vendor/dhii/expression-renderer-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/php-cs-fixer-config" />
           <root url="file://$MODULE_DIR$/vendor/dhii/stringable-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/type-interface" />
@@ -34,6 +35,7 @@
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/vendor/psr/container" />
           <root url="file://$MODULE_DIR$/vendor/psr/log" />
           <root url="file://$MODULE_DIR$/vendor/ptrofimov/xpmock" />
           <root url="file://$MODULE_DIR$/vendor/satooshi/php-coveralls" />
@@ -61,6 +63,7 @@
           <root url="file://$MODULE_DIR$/vendor/dhii/data-key-value-aware-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/evaluable-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/expression-interface" />
+          <root url="file://$MODULE_DIR$/vendor/dhii/expression-renderer-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/php-cs-fixer-config" />
           <root url="file://$MODULE_DIR$/vendor/dhii/stringable-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/type-interface" />
@@ -77,6 +80,7 @@
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/vendor/psr/container" />
           <root url="file://$MODULE_DIR$/vendor/psr/log" />
           <root url="file://$MODULE_DIR$/vendor/ptrofimov/xpmock" />
           <root url="file://$MODULE_DIR$/vendor/satooshi/php-coveralls" />

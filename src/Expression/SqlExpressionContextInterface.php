@@ -12,11 +12,11 @@ use Dhii\Expression\Renderer\ExpressionContextInterface;
 interface SqlExpressionContextInterface extends ExpressionContextInterface
 {
     /**
-     * The key in the container from which the field-column map can be retrieved.
+     * The key in the container from which the aliases map can be retrieved.
      *
      * @since [*next-version*]
      */
-    const K_FIELD_COLUMN_MAP = 'field_column_map';
+    const K_ALIASES_MAP = 'aliases_map';
 
     /**
      * The key in the container from which the value-hash map can be retrieved.

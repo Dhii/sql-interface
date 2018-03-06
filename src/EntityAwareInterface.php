@@ -12,11 +12,11 @@ use Dhii\Util\String\StringableInterface as Stringable;
 interface EntityAwareInterface
 {
     /**
-     * Retrieves the entity.
+     * Retrieves the entity associated with this instance.
      *
      * @since [*next-version*]
      *
-     * @return string|Stringable The entity.
+     * @return string|Stringable|null The entity, if any.
      */
     public function getEntity();
 }

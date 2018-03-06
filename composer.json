@@ -28,6 +28,12 @@
             "Dhii\\Storage\\Resource\\Sql\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Dhii\\Storage\\Resource\\Sql\\UnitTest\\": "test/unit",
+            "Dhii\\Storage\\Resource\\Sql\\FuncTest\\": "test/functional"
+        }
+    },
     "scripts": {
         "test": "phpunit",
         "csfix": "php-cs-fixer fix -vvv"

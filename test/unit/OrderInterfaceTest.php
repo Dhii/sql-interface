@@ -29,7 +29,8 @@ class OrderInterfaceTest extends TestCase
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
-                     ->getEntityField()
+                     ->getEntity()
+                     ->getField()
                      ->isAscending();
 
         return $mock->new();

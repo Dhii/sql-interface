@@ -51,7 +51,13 @@ class OrderInterfaceTest extends TestCase
         );
 
         $this->assertInstanceOf(
-            'Dhii\Storage\Resource\Sql\EntityFieldAwareInterface',
+            'Dhii\Storage\Resource\Sql\EntityAwareInterface',
+            $subject,
+            'Test subject does not extend expected interface.'
+        );
+
+        $this->assertInstanceOf(
+            'Dhii\Storage\Resource\Sql\FieldAwareInterface',
             $subject,
             'Test subject does not extend expected interface.'
         );

@@ -8,7 +8,8 @@ namespace Dhii\Storage\Resource\Sql;
  * @since [*next-version*]
  */
 interface OrderInterface extends
-    EntityFieldAwareInterface,
+    EntityAwareInterface,
+    FieldAwareInterface,
     IsAscendingCapableInterface
 {
 }

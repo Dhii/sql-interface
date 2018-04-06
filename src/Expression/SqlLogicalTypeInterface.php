@@ -14,6 +14,13 @@ interface SqlLogicalTypeInterface extends
     SqlRelationalTypeInterface
 {
     /**
+     * Type constant for expressions and terms that represent an SQL NOT logical operator.
+     *
+     * @since [*next-version*]
+     */
+    const T_NOT = 'sql_not';
+
+    /**
      * Type constant for expressions and terms that represent an SQL ANY logical operator.
      *
      * @since [*next-version*]
